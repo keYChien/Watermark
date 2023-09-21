@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:background="?android:attr/windowBackground"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/popup_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="這是PopupWindow"
+            android:textSize="48sp" />
+
+        <Button
+            android:id="@+id/btnConform"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:background="#668cff"
+            android:text="確認"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+</RelativeLayout>
+
+
